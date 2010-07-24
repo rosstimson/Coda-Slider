@@ -58,7 +58,7 @@ CHANGE LOG
 		
 		// Collect the $container and $panels
 		var $container = $(this).find('.scrollContainer');
-		var $panels = $container.children('div');
+		var $panels = $container.children('section');
 		
 
 		
