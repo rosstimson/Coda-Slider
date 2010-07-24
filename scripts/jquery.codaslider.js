@@ -23,8 +23,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 Author:         Pablo de la Pena (HelloPablo)
-Version:        1.0
-Dated:          31st March 2010
+Version:        1.1
+Dated:          24th July 2010
 
 Dependency:     jQuery 1.2.6
                 jQuery.scrollTo 1.4.2
@@ -43,6 +43,8 @@ CHANGE LOG
 
 
      1.0        - [31 March 2010] Ported original code into a jQuery plugin.
+     1.1        - [24 July 2010] Slight adjustments by Ross Timson (rosstimson.com) to work
+                  with new HTML5 tags.
      
 */
 
