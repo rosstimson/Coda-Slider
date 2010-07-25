@@ -86,13 +86,13 @@ CHANGE LOG
 	    	.after('<img class="scrollButtons right" src="' + opts.arrowRight + '" />');
 	    }
 	    	
-	    $(this).find('.navigation').find('a').click($.fn.codaSlider.selectNav);
+	    $(this).find('nav[role="navigation"]').find('a').click($.fn.codaSlider.selectNav);
 		
 		// Go somewhere if there is a hash
 	    if (window.location.hash) {
 	        this.trigger({ id : window.location.hash.substr(1) });
 	    } else {
-	        $('ul.navigation a:first').click();
+	        $('nav[role="navigation"] a:first').click();
 	    }
 
 	    // offset is used to move to *exactly* the right place, since I'm using
@@ -110,7 +110,7 @@ CHANGE LOG
 		    // can be a selector which will be relative to the target
 		    items: $panels,
 		
-		    navigation: '.navigation a',
+		    navigation: 'nav[role="navigation"] a',
 		
 		    // selectors are NOT relative to document, i.e. make sure they're unique
 		    prev: 'img.left', 
@@ -165,7 +165,7 @@ CHANGE LOG
 		//	This bit seems a bit hacky....
 		//	but scope issues mean a relative path is needed.
 		//	Fix if a better solution is available!
-		var el = $(data).parent().parent().parent().find('.navigation').find('a[href$="' + data.id + '"]').get(0);
+		var el = $(data).parent().parent().parent().find('nav[role="navigation"]').find('a[href$="' + data.id + '"]').get(0);
 		$.fn.codaSlider.selectNav.call(el);
 	};
 	

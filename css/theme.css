@@ -18,33 +18,33 @@ h2 {
     height: 50px;
 }
 
-ul.navigation {
+nav[role="navigation"] ul {
     list-style: none;
     margin: 0;
     padding: 0;
     padding-bottom: 9px;
 }
 
-ul.navigation li {
+nav[role="navigation"] ul li {
     display: inline;
     margin-right: 10px;
 }
 
-ul.navigation a {
+nav[role="navigation"] a {
     padding: 10px;
     color: #000;
     text-decoration: none;
 }
 
-ul.navigation a:hover {
+nav[role="navigation"] a:hover {
     background-color: #f6f6f6;
 }
 
-ul.navigation a.selected {
+nav[role="navigation"] a.selected {
     background-color: #fff;
 }
 
-ul.navigation a:focus {
+nav[role="navigation"] a:focus {
     outline: none;
 }
 

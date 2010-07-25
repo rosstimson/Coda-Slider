@@ -19,5 +19,5 @@ Todo
 ----
 
 ### HTML5 Branch
-  * Change section header to h1 rather than h3 to be more in fitting with HTML5.
-  * Navigation has ARIA role "navigation", we can probably use this rather than adding extra "navigation" class to ul.
+  * <strike>Change section header to h1 rather than h3 to be more in fitting with HTML5.</strike>
+  * <strike>Navigation has ARIA role "navigation", we can probably use this rather than adding extra "navigation" class to ul.</strike>
