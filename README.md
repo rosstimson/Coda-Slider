@@ -14,10 +14,3 @@ Changelog
 
   * 1.0 - [31 March 2010] Ported original code into a jQuery plugin.  
   * 1.1 - [24 July 2010] Slight adjustments by Ross Timson (rosstimson.com) to work with new HTML5 tags.
-
-Todo
-----
-
-### HTML5 Branch
-  * <strike>Change section header to h1 rather than h3 to be more in fitting with HTML5.</strike>
-  * <strike>Navigation has ARIA role "navigation", we can probably use this rather than adding extra "navigation" class to ul.</strike>
