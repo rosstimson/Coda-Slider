@@ -5,7 +5,7 @@
 }
 
 .scroll {
-  height: 250pox;
+  height: 250px;
   overflow: auto;
   position: relative; /* fix for IE to respect overflow */
   clear: left;
